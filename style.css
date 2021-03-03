@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
+    border: 2px solid brown;
+    width: 150px;
+    height: 150px;
+    float: left;
+    font-size: 120px;
+    text-align: center;
+    color: green;
+  }
+ 
+#div1,#div4,#div7{
+    clear: left;
+    border-left: none;
+}
+#div3,#div6,#div9{
+    border-right: none;
+}
+#div1,#div2,#div3{
+    border-top: none;
+}
+#div7,#div8,#div9{
+    border-bottom: none;
+}
+
+
+#main_div{
+    margin-left:500px;
+    margin-top: 50px;
+}
+
+
+
